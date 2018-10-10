@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  become: true
+  tasks:
+  - file: 
+    path: /home/ansible/pull.txt
+    state: touch
